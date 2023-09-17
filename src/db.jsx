@@ -1,33 +1,4 @@
-// const datas = [
-//     {
-//       proyektor: "Proyektor 1",
-//       gambar: "proyektor.png"
-//     },
-//     {
-//       proyektor: "Proyektor 2",
-//       gambar: "proyektor.png"
-//     },
-//     {
-//       proyektor: "Proyektor 3",
-//       gambar: "proyektor.png"
-//     },
-//     {
-//       alatBersih: "Sapu",
-//       gambar: "sapu.png"
-//     },
-//     {
-//       alatBersih: "Pengki",
-//       gambar: "sapu.png"
-//     },
-//     {
-//       alatBersih: "Pel",
-//       gambar: "sapu.png"
-//     }
-//   ]
-
-
-
-const datas = {
+export const datas = {
     proyektor : [
     {
         id : "1",
@@ -95,8 +66,80 @@ bersih : [
 
 }
 
+ export const DataPinjams = [
+    {
+        id_pinjam : "1",
+        admin : "admin1",
+        nama : "Habib",
+        kelas : "XII RPL 1",
+        notlp : "0812346790",
+        barang : "proyektor",
+        durasi : "10.45",
+        tgl : "15-09-2023"
+    },
+    {
+        id_pinjam : "2",
+        admin : "admin1",
+        nama : "Putraw",
+        kelas : "XII RPL 3",
+        notlp : "0867895431",
+        barang : "sapu",
+        durasi : "09.30",
+        tgl : "17-09-2023"
+    },
+    {
+        id_pinjam : "3",
+        admin : "admin1",
+        nama : "Adrian",
+        kelas : "XIII AK 5",
+        notlp : "0873578293",
+        barang : "Pengki",
+        durasi : "08.00",
+        tgl : "22-09-2023"
+    },
+    {
+        id_pinjam : "4",
+        admin : "admin1",
+        nama : "Rizky",
+        kelas : "XI TKJ 1",
+        notlp : "0852891723",
+        barang : "Proyektor",
+        durasi : "09.30",
+        tgl : "20-09-2023"
+    },
+    {
+        id_pinjam : "5",
+        admin : "admin1",
+        nama : "Wijaya",
+        kelas : "X KA 1",
+        notlp : "0881975247",
+        barang : "sapu",
+        durasi : "08.00",
+        tgl : "22-09-2023"
+    },
+]
 
 
+export const Riwayats = [
 
-
-  export default datas;
+    {
+        id_pinjam : "3",
+        admin : "admin1",
+        nama : "Adrian",
+        kelas : "XIII AK 5",
+        notlp : "0873578293",
+        barang : "Pengki",
+        durasi : "08.00",
+        tgl : "22-09-2023"
+    },
+    {
+        id_pinjam : "5",
+        admin : "admin1",
+        nama : "Wijaya",
+        kelas : "X KA 1",
+        notlp : "0881975247",
+        barang : "sapu",
+        durasi : "08.00",
+        tgl : "22-09-2023"
+    },
+]

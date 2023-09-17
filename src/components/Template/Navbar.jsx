@@ -14,10 +14,10 @@ const NavBar = () => {
               <a className="nav-link" href="/">Beranda</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">Data peminjaman</a>
+              <a className="nav-link" href="/DataPinjam">Data peminjaman</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">Data pengembalian</a>
+              <a className="nav-link" href="/riwayat">Riwayat Peminjaman</a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#">Alat & Jenis barang</a>

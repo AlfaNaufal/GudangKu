@@ -1,18 +1,8 @@
 import NavBar from "./Template/Navbar";
 import Footer from "./Template/Footer";
-import datas from "../db";
+import { datas } from "../db";
 
 const Home = () => {
-  // const datas = [
-  //   {
-  //     alat: "Proyektor",
-  //     gambar: "proyektor.png"
-  //   },
-  //   {
-  //     alat: "Pensil",
-  //     gambar: "pensil.png"
-  //   }
-  // ]
   return (
     // <div className="w-full bg-dark">
       <>
