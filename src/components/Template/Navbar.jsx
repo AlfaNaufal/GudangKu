@@ -2,7 +2,7 @@ const NavBar = () => {
     return (
       <>
       <nav className="navbar navbar-expand-lg navbar-light bg-dark-subtle">
-        <a className="navbar-brand" href="#">
+        <a className="navbar-brand ps-3" href="#">
           <img src="GudangKu.png" alt="GudangKu" width="100" height="auto" />
         </a>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -20,7 +20,7 @@ const NavBar = () => {
               <a className="nav-link" href="/riwayat">Riwayat Peminjaman</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">Alat & Jenis barang</a>
+              <a className="nav-link" href="/alat">Alat & Jenis barang</a>
             </li>
           </ul>
         </div>

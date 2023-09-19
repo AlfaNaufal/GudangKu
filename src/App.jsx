@@ -3,6 +3,10 @@ import Home from "./components/Home";
 import Pinjam from "./components/Pinjam";
 import DataPinjam from "./components/DataPinjam";
 import Riwayat from "./components/Riwayat";
+import DataAlat from "./components/DataAlat";
+import TambahData from "./components/TambahData";
+import EditData from "./components/EditData";
+
 
 
 const App = () => {
@@ -10,12 +14,14 @@ const App = () => {
    <Router>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/pinjam" element={<Pinjam />} />
+        <Route path="/pinjam/:id" element={<Pinjam />} />
         <Route path="/dataPinjam" element={<DataPinjam />} />
         <Route path="/riwayat" element={<Riwayat />} />
+        <Route path="/alat" element={<DataAlat />} />
+        <Route path="/tambahData" element={<TambahData />} />
+        <Route path="/editData" element={<EditData />} />
       </Routes>
-   </Router>
-   
+   </Router> 
   )
 }
 

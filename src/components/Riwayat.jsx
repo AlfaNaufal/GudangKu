@@ -1,17 +1,16 @@
 import NavBar from "./Template/Navbar";
 import Footer from "./Template/Footer";
-import { Riwayats } from "../db";
+import { riwayat } from "../db";
 
 
-
-const Riwayat = () => {
+const DataPinjam = () => {
 
     return (
         <>
 
         <NavBar />
         <div className="container">
-            <h1>Data Peminjaman</h1>
+            <h1 className="py-3">Data Peminjaman</h1>
 
             <table className="table">
                 <thead>
@@ -21,19 +20,25 @@ const Riwayat = () => {
                         <th>Nama Peminjam</th>
                         <th>Kelas</th>
                         <th>No. Tlp</th>
-                        <th>Nama Barang</th>
+                        <th>ID Barang</th>
+                        <th>Jenis Barang</th>
+                        <th>Batas waktu Pinjam</th>
+                        <th>waktu Kembali</th>
                     </tr>
                 </thead>
                 <tbody>
         {
-                Riwayats.map((data) => (
+                riwayat.map((data) => (
                     <tr>
                         <th>{data.id_pinjam}</th>
                         <th>{data.admin}</th>
                         <th>{data.nama}</th>
                         <th>{data.kelas}</th>
-                        <th>{data.notlp}</th>
-                        <th>{data.barang}</th>
+                        <th>{data.no_tlp}</th>
+                        <th>{data.id_barang}</th>
+                        <th>{data.jenis}</th>
+                        <th>{data.durasi}</th>
+                        <th>{data.kembali}</th>
                     </tr>
         ))
         }
@@ -47,4 +52,4 @@ const Riwayat = () => {
 
 }
 
-export default Riwayat;
+export default DataPinjam;
