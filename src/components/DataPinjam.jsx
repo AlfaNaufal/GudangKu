@@ -1,6 +1,6 @@
 import NavBar from "./Template/Navbar";
 import Footer from "./Template/Footer";
-import { pinjam } from "../db";
+import { pinjam } from "./database/db";
 
 
 const DataPinjam = () => {

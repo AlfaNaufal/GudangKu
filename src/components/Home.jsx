@@ -1,11 +1,11 @@
 import NavBar from "./Template/Navbar";
 import Footer from "./Template/Footer";
-import { datas } from "../db";
+import { datas } from "./database/db";
 
 const Home = () => {
   const proyektor = datas.filter((barang) => barang.id_jenis === 1 )
-  const bersih = datas.filter((barang) => barang.id_jenis === 2 )
-  const speaker = datas.filter((barang) => barang.id_jenis === 3)
+  const speaker = datas.filter((barang) => barang.id_jenis === 2)
+  const bersih = datas.filter((barang) => barang.id_jenis === 3 )
   
   return (
     <div className="w-full bg-secondary text-light">

@@ -1,7 +1,7 @@
 import NavBar from "./Template/Navbar";
 import Footer from "./Template/Footer";
 import { useEffect, useState } from "react";
-import { datas } from '../db' 
+import { datas } from './database/db' 
 import { useParams } from "react-router-dom";
 
 const Pinjam = () => {

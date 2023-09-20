@@ -1,6 +1,6 @@
 import NavBar from "./Template/Navbar";
 import Footer from "./Template/Footer";
-import { datas } from "../db";
+import { datas } from "./database/db";
 
 
 const DataAlat = () =>{
